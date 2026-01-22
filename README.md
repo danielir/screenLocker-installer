@@ -17,6 +17,7 @@ Toda la edición puede hacerse **directamente desde este README**, abriendo el e
     "message": "Hora de ayudar a poner la mesa"
   }
 }
+```
 
 Este JSON define:
 - **pc_alejandro** → identificador del dispositivo
