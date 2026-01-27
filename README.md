@@ -67,7 +67,9 @@ Este JSON define:
 
 Puedes **editar este JSON directamente en el navegador** usando el siguiente enlace:
 
-👉 **[Abrir editor online con el JSON precargado](https://jsoneditoronline.org/?json=%7B%22pc_alejandro%22%3A%7B%22command%22%3A%22unlock%22%2C%22message%22%3A%22Hora%20de%20ayudar%20a%20poner%20la%20mesa%22%7D%7D)**
+<a href="https://jsoneditoronline.org/?json=%7B%22pc_alejandro%22%3A%7B%22command%22%3A%22unlock%22%2C%22message%22%3A%22Hora%20de%20ayudar%20a%20poner%20la%20mesa%22%7D%7D" target="_blank" rel="noopener noreferrer">
+👉 Abrir editor online con el JSON precargado
+</a>
 
 Al abrir el enlace:
 - El JSON se carga automáticamente
