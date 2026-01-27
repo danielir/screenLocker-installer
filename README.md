@@ -37,7 +37,9 @@ Antes de usar ScreenLocker necesitas crear una **base de datos en Firebase**.
 
 En este vídeo se explica **paso a paso** cómo hacerlo:
 
-👉 **[Ver vídeo: Configuración del backend con Firebase](https://youtu.be/KFYa1E_6j00?si=JoEpb40r53uDv_Wt)**
+<a href="https://youtu.be/KFYa1E_6j00?si=JoEpb40r53uDv_Wt" target="_blank" rel="noopener noreferrer">
+🎥 Ver vídeo: Configuración del backend con Firebase
+</a>
 
 ---
 
