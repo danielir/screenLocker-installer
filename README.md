@@ -1,14 +1,49 @@
-# screenLocker-installer
+# ScreenLocker – Installer (Beta)
 
-# Inicialización de Base de Datos (JSON)
+ScreenLocker es una pequeña aplicación para **bloquear la pantalla de un ordenador Windows** y mostrar un **mensaje personalizado** (por ejemplo: *“Hora de cenar”* o *“Se acabó el ordenador”*).
 
-Este proyecto utiliza un **JSON de configuración** para la **creación e inicialización de la base de datos** de comandos.
+Está pensada para ayudar a los padres a **evitar discusiones cuando se acaba el tiempo de uso del PC**.
 
-Toda la edición puede hacerse **directamente desde este README**, abriendo el enlace incluido más abajo.
+⚠️ **Estado actual**: versión Beta / pruebas.  
+Funciona bien, pero es sencilla y mejorable. El objetivo es probarla y recoger feedback.
 
 ---
 
-## 📦 Ejemplo de JSON de creación de la base de datos
+## 🧠 ¿Cómo funciona ScreenLocker?
+
+1. El ordenador tiene instalada la aplicación ScreenLocker.
+2. El padre/madre accede a una **base de datos online** (Firebase).
+3. En esa base de datos:
+   - Se indica si el ordenador debe estar **bloqueado (`lock`)** o **desbloqueado (`unlock`)**
+   - Se puede cambiar el **mensaje** que verá el niño en pantalla
+4. La aplicación consulta esa base de datos y:
+   - Bloquea la pantalla
+   - Muestra el mensaje configurado
+
+👉 El control se hace **desde cualquier dispositivo** (móvil, tablet, otro ordenador).
+
+---
+
+## 🔄 Importante
+- Tras instalar la aplicación es necesario **reiniciar el ordenador una vez**.
+- El ordenador debe estar **conectado a Internet**.
+- El bloqueo/desbloqueo es **manual**: hay que cambiar el valor `lock / unlock` en la base de datos.
+
+---
+
+## 🎥 Vídeo: cómo configurar el backend (Firebase)
+
+Antes de usar ScreenLocker necesitas crear una **base de datos en Firebase**.
+
+En este vídeo se explica **paso a paso** cómo hacerlo:
+
+👉 **[Ver vídeo: Configuración del backend con Firebase](https://youtu.be/KFYa1E_6j00?si=JoEpb40r53uDv_Wt)**
+
+---
+
+## 🗄️ Inicialización de la Base de Datos (JSON)
+
+La base de datos se define con un **JSON** como el siguiente:
 
 ```json
 {
