@@ -8,7 +8,7 @@ y empieza la típica negociación del *“cinco minutos más”*.
 
 Con ScreenLocker, el adulto decide cuándo termina el uso del PC
 y en la pantalla aparece un mensaje claro, por ejemplo
-*“Hora de poner la mesa”* o *“Se acabó el ordenador”*.
+*“Hora de poner la mesa”* o *“Se acabó el ordenador”*. El objetivo no es castigar ni prohibir, sino facilitar el momento de parar cuando al niño le cuesta desconectar del juego.
 
 <img src="images/screenlocker_comic.png" width="600" />
 
